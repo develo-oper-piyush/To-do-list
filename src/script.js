@@ -3,8 +3,8 @@ let inp = document.querySelector("#inp");
 // Add event listener to check input length while user is typing
 inp.addEventListener("input", () => {
     let val = inp.value;
-    if (val.length > 50) {
-        inp.value = val.slice(0, 50);
+    if (val.length > 45) {
+        inp.value = val.slice(0, 45);
     }
 });
 
