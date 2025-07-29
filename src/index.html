@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+            integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="output.css" />
+        <link
+            rel="shortcut icon"
+            href="images/favicon.png"
+            type="image/x-icon"
+        />
+        <title>To do List</title>
+        <link
+            rel="shortcut icon"
+            href="images/favicon.png"
+            type="image/x-icon"
+        />
+    </head>
+    <body
+        class="m-0 p-0 box-border font-gilroy font-bold w-screen h-screen bg-gray-200"
+    >
+        <div
+            id="main"
+            class="w-screen h-full flex flex-col justify-center items-center bg-[#1c1c1c] text-white gap-y-5"
+        >
+            <div
+                id="card"
+                class="rounded-md p-3 ring-1 ring-[#3c3c3c] flex flex-col justify-start items-center w-90 gap-3"
+            >
+                <h1 class="select-none">To do List</h1>
+                <div class="gap-4 flex justify-center items-center">
+                    <input
+                        id="inp"
+                        type="text"
+                        class="w-40 h-8 p-2 shadow-md bg-[#2c2c2c] outline-none rounded-md text-sm font-medium text-center"
+                        placeholder="Task"
+                    />
+                    <div id="#add" class="btn">Add</div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

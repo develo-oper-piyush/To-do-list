@@ -1,0 +1,13 @@
+/* npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch */
+
+@import "tailwindcss";
+
+@layer components {
+    .btn {
+        @apply bg-emerald-500 ring-1 ring-[#3c3c3c] rounded-md active:scale-90 transition-all duration-125 cursor-pointer font-medium p-1 shadow-md;
+    }
+    .task {
+        @apply ring-1 ring-[#3c3c3c] rounded-md
+        font-medium p-1 pl-2 pr-2 flex gap-2 cursor-text;
+    }
+}
