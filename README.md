@@ -7,7 +7,7 @@ This is a simple **To do list** project which is created using JS and Tailwind C
 ---
 
 ### 🌐 Live Demo:
-- [Click here](https://.netlify.app/)
+- [Click here](https://listi-fy.netlify.app/)
 
 ### 🚀 Quick Start (To try this on your local machine)
 
