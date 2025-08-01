@@ -21,7 +21,7 @@ This is a simple **To do list** project which is created using JS and Tailwind C
 3. Clone the repo in the same folder:
 
    ```bash
-   git clone https://github.com/develo-oper-piyush/Guess-Number.git
+   git clone https://github.com/develo-oper-piyush/To-do-list.git
    cd To do list
    ```
 4. Open `index.html` in your browser.
